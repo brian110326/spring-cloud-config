@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: my-very-very-secret-key-1234567890abcd_Changed_1111
+  secret: my-very-very-secret-key-1234567890abcd
 
 gateway:
   ip: 172.31.96.1

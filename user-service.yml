@@ -13,4 +13,5 @@ spring:
     password: "{cipher}955f8bd72a3d2d5ac187a77e06ba4fd20dcd3bb62820519fb4c81ca12dbb1f66"
 
 order_service:
-  url: http://localhost:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders
+  #앞에 order-service는 application이름

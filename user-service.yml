@@ -1,0 +1,13 @@
+token:
+  expiration_time: 86400000
+  secret: my-very-very-secret-key-1234567890abcd_prod
+
+gateway:
+  ip: 172.31.96.1
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;
+    username: sa
+    password: 1234

@@ -10,7 +10,7 @@ spring:
     password: "{cipher}955f8bd72a3d2d5ac187a77e06ba4fd20dcd3bb62820519fb4c81ca12dbb1f66"
 
 gateway:
-  ip: 172.18.0.2
+  ip: http://apigateway-service:8000
 
 order_service:
   url: http://order-service/order-service/%s/orders

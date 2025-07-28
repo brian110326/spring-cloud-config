@@ -3,7 +3,7 @@ token:
   secret: my-very-very-secret-key-1234567890abcd-movie-12345
 
 gateway:
-  ip: 172.30.1.79
+  ip: 172.31.96.1
 
 spring:
   datasource:

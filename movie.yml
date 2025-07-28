@@ -2,8 +2,8 @@ token:
   expiration_time: 86400000
   secret: my-very-very-secret-key-1234567890abcd-movie-12345
 
-#gateway:
-#ip: 172.31.96.1
+gateway:
+  ip: 172.31.96.1
 
 spring:
   datasource:
